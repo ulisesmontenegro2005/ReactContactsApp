@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { ContactsCustomContext } from './context/ContactsContext';
+import { ContactDetails } from './components/ContactDetails';
+import { Index } from './pages/index'
+import { Nav } from './components/Nav';
+import { Form } from './pages/Form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ContactsCustomContext>
+        <BrowserRouter>
+
+          <Nav/>
+
+          <Routes>
+            
+            <Route path='/' element={<Index/>}/>
+
+            <Route path='/:id' element={<ContactDetails/>}/>
+
+            <Route path='/form' element={<Form/>}/>
+
+          </Routes>
+
+        </BrowserRouter>
+      </ContactsCustomContext>
     </div>
   );
 }

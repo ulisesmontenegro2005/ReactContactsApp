@@ -1,0 +1,19 @@
+.navIndex{
+    width: 100%;
+    height: 70px;
+    background-color: #47597E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pNavIndex{
+    color: #B2AB8C;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.linkIndex{
+    text-decoration: none;
+}

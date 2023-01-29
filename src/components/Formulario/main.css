@@ -1,0 +1,36 @@
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputForm{
+    width: 230px;
+    height: 10px;
+    border-radius: 20px;
+    border-style: none;
+    border: 2px solid #47597E;
+    background-color: rgba(142,142,147,0.12);
+    padding: 10px;
+    color: #B2AB8C;
+}
+
+.inputForm::placeholder{
+    color: #B2AB8C;
+    font-size: 15px;
+}
+
+.buttonForm{
+    color: #B2AB8C;
+    text-decoration: none;
+    background-color: rgba(142,142,147,0.12);
+    border: 2px solid #B2AB8C;
+    padding: 6px;
+    border-radius: 40px;
+}
+
+.buttonForm:hover{
+    color: #B2AB8C;
+    text-decoration: none;
+}

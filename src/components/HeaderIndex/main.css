@@ -1,0 +1,36 @@
+.headerIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchHeaderIndex{
+    width: 230px;
+    height: 25px;
+    border-radius: 60px;
+    border-style: none;
+    border: 2px solid #47597E;
+    background-color: rgba(142,142,147,0.12);
+    padding: 10px;
+    color: #B2AB8C;
+}
+
+.searchHeaderIndex::placeholder{
+    color: #B2AB8C;
+    font-size: 15px;
+}
+
+.divActionsHeader{
+    display: flex;
+}
+
+.iconAdd{
+    color: #B2AB8C;
+    width: 21px;
+    height: 21px;
+    margin: 7px;
+    padding: 5px;
+    border: 2px solid #47597E;
+    border-radius: 25px;
+}

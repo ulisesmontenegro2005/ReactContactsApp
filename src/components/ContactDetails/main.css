@@ -1,0 +1,89 @@
+.mainContactDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.divContactDetails{
+    display: flex;
+    width: 260px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.divButtonsContactDetails{
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    margin-left: 18px;
+    gap: 20px;
+}
+
+.textContactDetails{
+    color: #B2AB8C;
+}
+
+.buttonDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.buttonDetails:link{
+    text-decoration: none;
+}
+
+.buttonDetailsLabel{
+    color: black;
+    border: none;
+}
+
+.telButton{
+    height: 30px;
+}
+
+.iconDetails{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeroDetails{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #47597E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.deleteDetails{
+    width: 260px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #47597E;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black 2px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.labelContactDetails{
+    color: #000000;
+}
+
+.deleteContactDetails{
+    color: #000000;
+    align-self: center;
+    margin-left: 2px;
+}
